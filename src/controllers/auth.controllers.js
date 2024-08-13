@@ -1,9 +1,14 @@
-const register = async ((req , res) => {
+import express from "express";
+
+const register = ((req , res) => {
 
 }) ;
 
-const login = async ((req , res) => {
+const login = ((req , res) => {
 
 }) ;
 
-module.exports = { register, login };
+export {
+    register,
+    login
+}
